@@ -16,6 +16,7 @@
         <gauge.maven.version>1.6.4</gauge.maven.version>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <appium.java.client.version>10.0.0</appium.java.client.version>
+        <selenium.java.version>4.37.0</selenium.java.version>
     </properties>
 
     <dependencies>
@@ -34,6 +35,11 @@
             <groupId>io.appium</groupId>
             <artifactId>java-client</artifactId>
             <version>${appium.java.client.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.seleniumhq.selenium</groupId>
+            <artifactId>selenium-java</artifactId>
+            <version>${selenium.java.version}</version>
         </dependency>
     </dependencies>
 
